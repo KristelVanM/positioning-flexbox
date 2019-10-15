@@ -1,0 +1,63 @@
+* {
+    top: 0;
+    margin: 0;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+header {
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 1.5em;
+}
+#intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+   
+}
+#intro div {
+flex-basis: 20%;
+margin: 1em;
+height: auto;
+
+}
+#intro img {
+    width: 40em;
+    margin: 2em;
+
+}
+
+#examp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8em;
+    margin-right: 8em;
+    column-gap: 1.5em;
+    align-content: center;
+}
+#examp div{
+    height: auto;   
+}
+#examp p {
+width: 17em;
+column-gap: 5em;
+}
+#examp img {
+    width: 15em;
+    
+}
+.empty {
+    visibility: hidden;
+}
